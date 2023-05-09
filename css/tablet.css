@@ -1,0 +1,50 @@
+@media(max-width: 1164px){
+    .galeryCards :nth-child(n+3){
+        display: none;
+    }
+
+    .galeryCards{
+        width: 440px;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 950px){
+    nav{
+        display: none;
+    }
+    .navBar img{
+        display: block;
+    }
+}
+
+
+@media(max-width: 750px){
+    .cards{
+        width: 50%;
+    }
+}
+
+
+
+
+@media(max-width: 710px){
+    .cards{
+        width: 70%;
+        /* flex-direction: column; */
+        text-align: center;
+
+        
+    }
+}
